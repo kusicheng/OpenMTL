@@ -1,0 +1,1 @@
+"""Prototype desktop scenes."""

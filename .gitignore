@@ -66,3 +66,13 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Local continuity and recycled files
+cc_mnt/
+ARCHIVE/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
