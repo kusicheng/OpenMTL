@@ -25,5 +25,3 @@ Keyboard shortcuts: `Ctrl+1` Home, `Ctrl+2` Auto translate, `Ctrl+3` Translate a
 ## Repository boundaries
 
 OpenMTL owns the frontend and user-facing application. [BackToMTL](https://github.com/kusicheng/backtomtl) owns the translation backend, image processing, OCR, detection, rendering, and related training code. [RagMTL](https://github.com/kusicheng/ragmtl) owns MAGRA retrieval and benchmarking.
-
-These are separate repositories. Keep implementation in its owning repository; share functionality through explicit imports, supported APIs, or a deliberately abstracted shared component.
